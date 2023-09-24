@@ -1,0 +1,50 @@
+.todo {
+  &__list {
+    border-collapse: collapse;
+    border-radius: 8px;
+
+    &--light {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    &--dark {
+      background-color: #1B202E;
+      color: #ffffff;
+    }
+
+    &--placeholder {
+      color: #109CF1;
+      font-size: 2rem;
+    }
+  }
+
+  &__header {
+    font-weight: bold;
+
+    &--light {
+      background-color: #f2f2f2;
+      border-color: #dddddd;
+    }
+    &--dark {
+      background-color: #34394B;
+      border-color: #242838;
+    }
+  }
+
+  &__item {
+    font-weight: bold;
+
+    &--light {
+      border-color: #dddddd;
+    }
+    &--dark {
+      border-color: #242838;
+    }
+  }
+}
+
+th, td {
+  padding: 8px;
+  border-width: 1px;
+  border-style: solid;
+}
